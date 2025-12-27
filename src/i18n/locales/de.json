@@ -1,0 +1,85 @@
+{
+  "common": {
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "contact": "Kontakt",
+    "email": "E-Mail",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "apps": {
+    "after-taste": {
+      "name": "After Taste",
+      "description": "Eine App zum Aufzeichnen von Verkostungsnotizen für Whisky, Wein, Bier, Kaffee und mehr"
+    },
+    "pocket-ai": {
+      "name": "Pocket AI",
+      "description": "Offline-LLM-basierter KI-Assistent und Übersetzungsanwendung"
+    }
+  },
+  "privacy": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Erhobene Personenbezogene Daten",
+          "content": ["Diese App bietet derzeit keine Online-Synchronisierungsfunktion, und alle Daten werden nur auf Ihrem Gerät gespeichert.", "Erhobene personenbezogene Daten: Keine", "Auf dem Gerät gespeicherte Daten: Verkostungsnotizen (Getränkeart, Name, Bewertung, Notizen und andere von Ihnen eingegebene Informationen)"]
+        },
+        {
+          "title": "2. Zweck der Erhebung und Nutzung",
+          "content": "Diese App erhebt keine personenbezogenen Daten. Alle Verkostungsaufzeichnungen werden nur auf Ihrem Gerät gespeichert und verwaltet."
+        },
+        {
+          "title": "3. Aufbewahrungszeitraum",
+          "content": "Alle in der App erstellten Daten werden nur auf Ihrem Gerät gespeichert und werden gelöscht, wenn Sie die App deinstallieren."
+        },
+        {
+          "title": "4. Weitergabe an Dritte",
+          "content": "Diese App gibt Ihre Daten nicht an Dritte weiter."
+        },
+        {
+          "title": "5. Datenlöschung",
+          "content": "Wenn Sie die App löschen, werden alle auf Ihrem Gerät gespeicherten Daten automatisch gelöscht."
+        },
+        {
+          "title": "6. Zukünftige Updates",
+          "content": "Wenn in Zukunft eine Online-Synchronisierungsfunktion hinzugefügt wird, wird diese Datenschutzrichtlinie aktualisiert und die Benutzer werden im Voraus benachrichtigt."
+        },
+        {
+          "title": "7. Datenschutzbeauftragter",
+          "content": "Bei datenschutzbezogenen Anfragen kontaktieren Sie uns bitte über die unten stehenden Informationen."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Erhobene Personenbezogene Daten",
+          "content": ["Diese App arbeitet in einer vollständig offline Umgebung und erhebt keine personenbezogenen Daten.", "Erhobene personenbezogene Daten: Keine", "Auf dem Gerät gespeicherte Daten: KI-Modelldateien (Gemma), Gesprächsverlauf, Übersetzungsverlauf (alles lokal gespeichert)"]
+        },
+        {
+          "title": "2. Zweck der Erhebung und Nutzung",
+          "content": "Diese App erhebt keine personenbezogenen Daten. Das KI-Modell arbeitet nach dem ersten Download vollständig offline, und alle Gesprächs- und Übersetzungsverarbeitung erfolgt nur auf Ihrem Gerät."
+        },
+        {
+          "title": "3. Aufbewahrungszeitraum",
+          "content": "Alle in der App erstellten Daten (Gesprächsverlauf, Übersetzungsverlauf) werden nur auf Ihrem Gerät gespeichert und werden gelöscht, wenn Sie die App deinstallieren."
+        },
+        {
+          "title": "4. Weitergabe an Dritte",
+          "content": "Diese App ist vollständig offline und überträgt Ihre Daten nicht an externe Server und gibt sie nicht an Dritte weiter."
+        },
+        {
+          "title": "5. Datenlöschung",
+          "content": "Wenn Sie die App löschen, werden alle auf Ihrem Gerät gespeicherten Daten (KI-Modell, Gesprächsverlauf, Übersetzungsverlauf) automatisch gelöscht."
+        },
+        {
+          "title": "6. Offline-Funktionen",
+          "content": ["KI-Chat: Vollständig offline KI-Gespräch mit dem Gemma-Modell", "Übersetzungsfunktion: Übersetzungsdienst, der offline funktioniert", "Alle Verarbeitung erfolgt lokal auf Ihrem Gerät und erfordert keine Internetverbindung."]
+        },
+        {
+          "title": "7. Datenschutzbeauftragter",
+          "content": "Bei datenschutzbezogenen Anfragen kontaktieren Sie uns bitte über die unten stehenden Informationen."
+        }
+      ]
+    }
+  }
+}

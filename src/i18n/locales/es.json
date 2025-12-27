@@ -1,0 +1,85 @@
+{
+  "common": {
+    "privacyPolicy": "Política de Privacidad",
+    "lastUpdated": "Última actualización",
+    "contact": "Contacto",
+    "email": "Correo electrónico",
+    "allRightsReserved": "Todos los derechos reservados."
+  },
+  "apps": {
+    "after-taste": {
+      "name": "After Taste",
+      "description": "Una aplicación para registrar notas de cata de whisky, vino, cerveza, café y más"
+    },
+    "pocket-ai": {
+      "name": "Pocket AI",
+      "description": "Asistente de IA y aplicación de traducción basada en LLM sin conexión"
+    }
+  },
+  "privacy": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Información Personal Recopilada",
+          "content": ["Esta aplicación actualmente no proporciona funcionalidad de sincronización en línea, y todos los datos se almacenan solo en su dispositivo.", "Información personal recopilada: Ninguna", "Datos almacenados en el dispositivo: Notas de cata (tipo de bebida, nombre, calificación, notas y otra información que ingrese)"]
+        },
+        {
+          "title": "2. Propósito de Recopilación y Uso",
+          "content": "Esta aplicación no recopila ninguna información personal. Todos los registros de cata se almacenan y gestionan solo en su dispositivo."
+        },
+        {
+          "title": "3. Período de Retención",
+          "content": "Todos los datos creados en la aplicación se almacenan solo en su dispositivo y se eliminarán cuando desinstale la aplicación."
+        },
+        {
+          "title": "4. Divulgación a Terceros",
+          "content": "Esta aplicación no comparte sus datos con terceros."
+        },
+        {
+          "title": "5. Eliminación de Datos",
+          "content": "Cuando elimine la aplicación, todos los datos almacenados en su dispositivo se eliminarán automáticamente."
+        },
+        {
+          "title": "6. Actualizaciones Futuras",
+          "content": "Si se agrega funcionalidad de sincronización en línea en el futuro, esta política de privacidad se actualizará y los usuarios serán notificados con anticipación."
+        },
+        {
+          "title": "7. Responsable de Privacidad",
+          "content": "Para consultas relacionadas con la privacidad, contáctenos utilizando la información a continuación."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Información Personal Recopilada",
+          "content": ["Esta aplicación opera en un entorno completamente sin conexión y no recopila ninguna información personal.", "Información personal recopilada: Ninguna", "Datos almacenados en el dispositivo: Archivos del modelo de IA (Gemma), historial de conversaciones, historial de traducciones (todo almacenado localmente)"]
+        },
+        {
+          "title": "2. Propósito de Recopilación y Uso",
+          "content": "Esta aplicación no recopila ninguna información personal. El modelo de IA opera completamente sin conexión después de la descarga inicial, y todo el procesamiento de conversaciones y traducciones ocurre solo en su dispositivo."
+        },
+        {
+          "title": "3. Período de Retención",
+          "content": "Todos los datos creados en la aplicación (historial de conversaciones, historial de traducciones) se almacenan solo en su dispositivo y se eliminarán cuando desinstale la aplicación."
+        },
+        {
+          "title": "4. Divulgación a Terceros",
+          "content": "Esta aplicación es completamente sin conexión y no transmite sus datos a servidores externos ni los comparte con terceros."
+        },
+        {
+          "title": "5. Eliminación de Datos",
+          "content": "Cuando elimine la aplicación, todos los datos almacenados en su dispositivo (modelo de IA, historial de conversaciones, historial de traducciones) se eliminarán automáticamente."
+        },
+        {
+          "title": "6. Funciones Sin Conexión",
+          "content": ["Chat de IA: Conversación de IA completamente sin conexión usando el modelo Gemma", "Función de traducción: Servicio de traducción que funciona sin conexión", "Todo el procesamiento se realiza localmente en su dispositivo y no requiere conexión a Internet."]
+        },
+        {
+          "title": "7. Responsable de Privacidad",
+          "content": "Para consultas relacionadas con la privacidad, contáctenos utilizando la información a continuación."
+        }
+      ]
+    }
+  }
+}

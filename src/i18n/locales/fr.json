@@ -1,0 +1,85 @@
+{
+  "common": {
+    "privacyPolicy": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour",
+    "contact": "Contact",
+    "email": "E-mail",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "apps": {
+    "after-taste": {
+      "name": "After Taste",
+      "description": "Une application pour enregistrer des notes de dégustation de whisky, vin, bière, café et plus"
+    },
+    "pocket-ai": {
+      "name": "Pocket AI",
+      "description": "Assistant IA et application de traduction basée sur LLM hors ligne"
+    }
+  },
+  "privacy": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Informations Personnelles Collectées",
+          "content": ["Cette application ne fournit actuellement pas de fonctionnalité de synchronisation en ligne, et toutes les données sont stockées uniquement sur votre appareil.", "Informations personnelles collectées : Aucune", "Données stockées sur l'appareil : Notes de dégustation (type de boisson, nom, note, commentaires et autres informations que vous saisissez)"]
+        },
+        {
+          "title": "2. Objectif de la Collecte et de l'Utilisation",
+          "content": "Cette application ne collecte aucune information personnelle. Tous les enregistrements de dégustation sont stockés et gérés uniquement sur votre appareil."
+        },
+        {
+          "title": "3. Période de Conservation",
+          "content": "Toutes les données créées dans l'application sont stockées uniquement sur votre appareil et seront supprimées lorsque vous désinstallerez l'application."
+        },
+        {
+          "title": "4. Divulgation à des Tiers",
+          "content": "Cette application ne partage pas vos données avec des tiers."
+        },
+        {
+          "title": "5. Suppression des Données",
+          "content": "Lorsque vous supprimez l'application, toutes les données stockées sur votre appareil seront automatiquement supprimées."
+        },
+        {
+          "title": "6. Mises à Jour Futures",
+          "content": "Si une fonctionnalité de synchronisation en ligne est ajoutée à l'avenir, cette politique de confidentialité sera mise à jour et les utilisateurs seront informés à l'avance."
+        },
+        {
+          "title": "7. Responsable de la Confidentialité",
+          "content": "Pour les questions relatives à la confidentialité, veuillez nous contacter en utilisant les informations ci-dessous."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Informations Personnelles Collectées",
+          "content": ["Cette application fonctionne dans un environnement complètement hors ligne et ne collecte aucune information personnelle.", "Informations personnelles collectées : Aucune", "Données stockées sur l'appareil : Fichiers du modèle IA (Gemma), historique des conversations, historique des traductions (tout stocké localement)"]
+        },
+        {
+          "title": "2. Objectif de la Collecte et de l'Utilisation",
+          "content": "Cette application ne collecte aucune information personnelle. Le modèle IA fonctionne complètement hors ligne après le téléchargement initial, et tout le traitement des conversations et des traductions se fait uniquement sur votre appareil."
+        },
+        {
+          "title": "3. Période de Conservation",
+          "content": "Toutes les données créées dans l'application (historique des conversations, historique des traductions) sont stockées uniquement sur votre appareil et seront supprimées lorsque vous désinstallerez l'application."
+        },
+        {
+          "title": "4. Divulgation à des Tiers",
+          "content": "Cette application est complètement hors ligne et ne transmet pas vos données à des serveurs externes ni ne les partage avec des tiers."
+        },
+        {
+          "title": "5. Suppression des Données",
+          "content": "Lorsque vous supprimez l'application, toutes les données stockées sur votre appareil (modèle IA, historique des conversations, historique des traductions) seront automatiquement supprimées."
+        },
+        {
+          "title": "6. Fonctionnalités Hors Ligne",
+          "content": ["Chat IA : Conversation IA complètement hors ligne utilisant le modèle Gemma", "Fonction de traduction : Service de traduction fonctionnant hors ligne", "Tout le traitement est effectué localement sur votre appareil et ne nécessite pas de connexion Internet."]
+        },
+        {
+          "title": "7. Responsable de la Confidentialité",
+          "content": "Pour les questions relatives à la confidentialité, veuillez nous contacter en utilisant les informations ci-dessous."
+        }
+      ]
+    }
+  }
+}

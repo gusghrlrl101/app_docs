@@ -1,0 +1,85 @@
+{
+  "common": {
+    "privacyPolicy": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "contact": "Contact",
+    "email": "Email",
+    "allRightsReserved": "All rights reserved."
+  },
+  "apps": {
+    "after-taste": {
+      "name": "After Taste",
+      "description": "An app for recording tasting notes for whiskey, wine, beer, coffee, and more"
+    },
+    "pocket-ai": {
+      "name": "Pocket AI",
+      "description": "Offline LLM-based AI assistant and translation application"
+    }
+  },
+  "privacy": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Personal Information Collected",
+          "content": ["This app does not currently provide online sync functionality, and all data is stored only on your device.", "Personal information collected: None", "Data stored on device: Tasting notes (beverage type, name, rating, notes, and other information you enter)"]
+        },
+        {
+          "title": "2. Purpose of Collection and Use",
+          "content": "This app does not collect any personal information. All tasting records are stored and managed only on your device."
+        },
+        {
+          "title": "3. Retention Period",
+          "content": "All data created in the app is stored only on your device and will be deleted when you uninstall the app."
+        },
+        {
+          "title": "4. Disclosure to Third Parties",
+          "content": "This app does not share your data with any third parties."
+        },
+        {
+          "title": "5. Data Deletion",
+          "content": "When you delete the app, all data stored on your device will be automatically deleted."
+        },
+        {
+          "title": "6. Future Updates",
+          "content": "If online sync functionality is added in the future, this privacy policy will be updated and users will be notified in advance."
+        },
+        {
+          "title": "7. Privacy Officer",
+          "content": "For privacy-related inquiries, please contact us using the information below."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Personal Information Collected",
+          "content": ["This app operates in a completely offline environment and does not collect any personal information.", "Personal information collected: None", "Data stored on device: AI model files (Gemma), conversation history, translation history (all stored locally)"]
+        },
+        {
+          "title": "2. Purpose of Collection and Use",
+          "content": "This app does not collect any personal information. The AI model operates completely offline after the initial download, and all conversation and translation processing occurs only on your device."
+        },
+        {
+          "title": "3. Retention Period",
+          "content": "All data created in the app (conversation history, translation history) is stored only on your device and will be deleted when you uninstall the app."
+        },
+        {
+          "title": "4. Disclosure to Third Parties",
+          "content": "This app is completely offline and does not transmit your data to external servers or share it with third parties."
+        },
+        {
+          "title": "5. Data Deletion",
+          "content": "When you delete the app, all data stored on your device (AI model, conversation history, translation history) will be automatically deleted."
+        },
+        {
+          "title": "6. Offline Features",
+          "content": ["AI Chat: Fully offline AI conversation using the Gemma model", "Translation: Translation service that works offline", "All processing is performed locally on your device and does not require an internet connection."]
+        },
+        {
+          "title": "7. Privacy Officer",
+          "content": "For privacy-related inquiries, please contact us using the information below."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "common": {
+    "privacyPolicy": "Política de Privacidade",
+    "lastUpdated": "Última atualização",
+    "contact": "Contato",
+    "email": "E-mail",
+    "allRightsReserved": "Todos os direitos reservados."
+  },
+  "apps": {
+    "after-taste": {
+      "name": "After Taste",
+      "description": "Um aplicativo para registrar notas de degustação de whisky, vinho, cerveja, café e mais"
+    },
+    "pocket-ai": {
+      "name": "Pocket AI",
+      "description": "Assistente de IA e aplicativo de tradução baseado em LLM offline"
+    }
+  },
+  "privacy": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Informações Pessoais Coletadas",
+          "content": ["Este aplicativo atualmente não fornece funcionalidade de sincronização online, e todos os dados são armazenados apenas no seu dispositivo.", "Informações pessoais coletadas: Nenhuma", "Dados armazenados no dispositivo: Notas de degustação (tipo de bebida, nome, avaliação, notas e outras informações que você inserir)"]
+        },
+        {
+          "title": "2. Finalidade da Coleta e Uso",
+          "content": "Este aplicativo não coleta nenhuma informação pessoal. Todos os registros de degustação são armazenados e gerenciados apenas no seu dispositivo."
+        },
+        {
+          "title": "3. Período de Retenção",
+          "content": "Todos os dados criados no aplicativo são armazenados apenas no seu dispositivo e serão excluídos quando você desinstalar o aplicativo."
+        },
+        {
+          "title": "4. Divulgação a Terceiros",
+          "content": "Este aplicativo não compartilha seus dados com terceiros."
+        },
+        {
+          "title": "5. Exclusão de Dados",
+          "content": "Quando você excluir o aplicativo, todos os dados armazenados no seu dispositivo serão automaticamente excluídos."
+        },
+        {
+          "title": "6. Atualizações Futuras",
+          "content": "Se a funcionalidade de sincronização online for adicionada no futuro, esta política de privacidade será atualizada e os usuários serão notificados com antecedência."
+        },
+        {
+          "title": "7. Responsável pela Privacidade",
+          "content": "Para consultas relacionadas à privacidade, entre em contato conosco usando as informações abaixo."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Informações Pessoais Coletadas",
+          "content": ["Este aplicativo opera em um ambiente completamente offline e não coleta nenhuma informação pessoal.", "Informações pessoais coletadas: Nenhuma", "Dados armazenados no dispositivo: Arquivos do modelo de IA (Gemma), histórico de conversas, histórico de traduções (tudo armazenado localmente)"]
+        },
+        {
+          "title": "2. Finalidade da Coleta e Uso",
+          "content": "Este aplicativo não coleta nenhuma informação pessoal. O modelo de IA opera completamente offline após o download inicial, e todo o processamento de conversas e traduções ocorre apenas no seu dispositivo."
+        },
+        {
+          "title": "3. Período de Retenção",
+          "content": "Todos os dados criados no aplicativo (histórico de conversas, histórico de traduções) são armazenados apenas no seu dispositivo e serão excluídos quando você desinstalar o aplicativo."
+        },
+        {
+          "title": "4. Divulgação a Terceiros",
+          "content": "Este aplicativo é completamente offline e não transmite seus dados para servidores externos nem os compartilha com terceiros."
+        },
+        {
+          "title": "5. Exclusão de Dados",
+          "content": "Quando você excluir o aplicativo, todos os dados armazenados no seu dispositivo (modelo de IA, histórico de conversas, histórico de traduções) serão automaticamente excluídos."
+        },
+        {
+          "title": "6. Recursos Offline",
+          "content": ["Chat de IA: Conversa de IA completamente offline usando o modelo Gemma", "Função de tradução: Serviço de tradução que funciona offline", "Todo o processamento é realizado localmente no seu dispositivo e não requer conexão com a Internet."]
+        },
+        {
+          "title": "7. Responsável pela Privacidade",
+          "content": "Para consultas relacionadas à privacidade, entre em contato conosco usando as informações abaixo."
+        }
+      ]
+    }
+  }
+}
