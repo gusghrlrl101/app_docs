@@ -1,13 +1,14 @@
 {
-  "name": "privacy_webs",
+  "name": "app_docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run check:i18n && tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check:i18n": "npx tsx scripts/check-translations.ts"
   },
   "dependencies": {
     "i18next": "^25.7.3",

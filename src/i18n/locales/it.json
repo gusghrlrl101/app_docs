@@ -1,6 +1,9 @@
 {
   "common": {
+    "appList": "Applicazioni",
+    "backToList": "Torna alla lista",
     "privacyPolicy": "Informativa sulla Privacy",
+    "termsOfService": "Termini di Servizio",
     "lastUpdated": "Ultimo aggiornamento",
     "contact": "Contatti",
     "email": "E-mail",
@@ -21,7 +24,7 @@
       "sections": [
         {
           "title": "1. Informazioni Personali Raccolte",
-          "content": ["Questa app attualmente non fornisce funzionalità di sincronizzazione online e tutti i dati vengono memorizzati solo sul tuo dispositivo.", "Informazioni personali raccolte: Nessuna", "Dati memorizzati sul dispositivo: Note di degustazione (tipo di bevanda, nome, valutazione, note e altre informazioni inserite)"]
+          "content": ["Questa app memorizza tutti i dati solo sul tuo dispositivo.", "Informazioni personali raccolte: Nessuna", "Dati memorizzati sul dispositivo: Note di degustazione (tipo di bevanda, nome, valutazione, note e altre informazioni inserite)"]
         },
         {
           "title": "2. Finalità della Raccolta e dell'Utilizzo",
@@ -40,11 +43,7 @@
           "content": "Quando elimini l'app, tutti i dati memorizzati sul tuo dispositivo verranno automaticamente eliminati."
         },
         {
-          "title": "6. Aggiornamenti Futuri",
-          "content": "Se in futuro verrà aggiunta la funzionalità di sincronizzazione online, questa informativa sulla privacy verrà aggiornata e gli utenti saranno informati in anticipo."
-        },
-        {
-          "title": "7. Responsabile della Privacy",
+          "title": "6. Responsabile della Privacy",
           "content": "Per domande relative alla privacy, contattaci utilizzando le informazioni seguenti."
         }
       ]
@@ -53,7 +52,7 @@
       "sections": [
         {
           "title": "1. Informazioni Personali Raccolte",
-          "content": ["Questa app funziona in un ambiente completamente offline e non raccoglie alcuna informazione personale.", "Informazioni personali raccolte: Nessuna", "Dati memorizzati sul dispositivo: File del modello IA (Gemma), cronologia delle conversazioni, cronologia delle traduzioni (tutto memorizzato localmente)"]
+          "content": ["Questa app funziona in un ambiente completamente offline e non raccoglie alcuna informazione personale.", "Informazioni personali raccolte: Nessuna", "Dati memorizzati sul dispositivo: File del modello IA, cronologia delle conversazioni, cronologia delle traduzioni (tutto memorizzato localmente)"]
         },
         {
           "title": "2. Finalità della Raccolta e dell'Utilizzo",
@@ -73,11 +72,93 @@
         },
         {
           "title": "6. Funzionalità Offline",
-          "content": ["Chat IA: Conversazione IA completamente offline utilizzando il modello Gemma", "Funzione di traduzione: Servizio di traduzione che funziona offline", "Tutta l'elaborazione viene eseguita localmente sul tuo dispositivo e non richiede una connessione Internet."]
+          "content": ["Chat IA: Conversazione IA completamente offline", "Funzione di traduzione: Servizio di traduzione che funziona offline", "Tutta l'elaborazione viene eseguita localmente sul tuo dispositivo e non richiede una connessione Internet."]
         },
         {
           "title": "7. Responsabile della Privacy",
           "content": "Per domande relative alla privacy, contattaci utilizzando le informazioni seguenti."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Accettazione dei Termini",
+          "content": "Scaricando o utilizzando questa app, accetti questi Termini di Servizio. Se non accetti questi termini, non utilizzare l'app."
+        },
+        {
+          "title": "2. Restrizione di Età",
+          "content": ["Questa app è progettata per registrare note di degustazione di bevande alcoliche ed è disponibile solo per utenti in età legale per bere.", "Gli utenti devono avere l'età legale per bere nel proprio paese o regione.", "L'uso di questa app da parte di minori è vietato. Questa app non incoraggia il consumo di alcol."]
+        },
+        {
+          "title": "3. Descrizione del Servizio",
+          "content": ["Questa app fornisce un servizio per registrare e gestire note di degustazione di whisky, vino, birra, caffè e altro.", "Tutti i dati vengono memorizzati solo sul tuo dispositivo."]
+        },
+        {
+          "title": "4. Contenuto dell'Utente",
+          "content": ["Tutto il contenuto creato dagli utenti nell'app (note di degustazione, valutazioni, memo, ecc.) rimane di proprietà dell'utente.", "Poiché tutti i dati vengono memorizzati solo sul tuo dispositivo, il backup e la gestione dei dati sono responsabilità dell'utente."]
+        },
+        {
+          "title": "5. Servizio a Pagamento",
+          "content": ["Questa è un'app a pagamento.", "I pagamenti vengono elaborati secondo le politiche dell'Apple App Store o del Google Play Store.", "I rimborsi sono soggetti alla politica di rimborso di ciascun negozio."]
+        },
+        {
+          "title": "6. Esclusione di Responsabilità",
+          "content": ["Questa app viene fornita 'COSÌ COM'È' senza alcuna garanzia espressa o implicita.", "Non siamo responsabili per perdita di dati, danni al dispositivo o altri problemi derivanti dall'uso dell'app.", "Questa app non incoraggia né promuove il consumo di alcol e raccomanda un consumo responsabile."]
+        },
+        {
+          "title": "7. Modifiche e Cessazione del Servizio",
+          "content": "L'operatore può modificare, sospendere o cessare il servizio senza preavviso."
+        },
+        {
+          "title": "8. Modifiche ai Termini",
+          "content": "Questi termini possono essere modificati secondo necessità e i termini aggiornati saranno annunciati tramite l'app o il sito web."
+        },
+        {
+          "title": "9. Contatti",
+          "content": "Per domande sull'utilizzo del servizio, contattaci utilizzando le informazioni seguenti."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Accettazione dei Termini",
+          "content": "Scaricando o utilizzando questa app, accetti questi Termini di Servizio. Se non accetti questi termini, non utilizzare l'app."
+        },
+        {
+          "title": "2. Descrizione del Servizio",
+          "content": ["Questa app fornisce un assistente IA e un servizio di traduzione basato su LLM offline.", "Tutta l'elaborazione IA viene eseguita localmente sul tuo dispositivo e non richiede una connessione Internet.", "Il modello IA funziona offline dopo il download iniziale."]
+        },
+        {
+          "title": "3. Contenuto dell'Utente",
+          "content": ["Tutto il contenuto creato dagli utenti nell'app (cronologia delle conversazioni, cronologia delle traduzioni, ecc.) rimane di proprietà dell'utente.", "Poiché tutti i dati vengono memorizzati solo sul tuo dispositivo, il backup e la gestione dei dati sono responsabilità dell'utente."]
+        },
+        {
+          "title": "4. Contenuto Generato dall'IA",
+          "content": ["Non garantiamo l'accuratezza, la completezza o l'idoneità delle risposte generate dall'IA e dei risultati delle traduzioni.", "Le risposte dell'IA dovrebbero essere utilizzate solo come riferimento. Non fare affidamento esclusivamente sulle risposte dell'IA per decisioni importanti.", "Non siamo responsabili per eventuali danni derivanti da contenuti generati dall'IA."]
+        },
+        {
+          "title": "5. Servizio a Pagamento",
+          "content": ["Questa è un'app a pagamento.", "I pagamenti vengono elaborati secondo le politiche dell'Apple App Store o del Google Play Store.", "I rimborsi sono soggetti alla politica di rimborso di ciascun negozio."]
+        },
+        {
+          "title": "6. Esclusione di Responsabilità",
+          "content": ["Questa app viene fornita 'COSÌ COM'È' senza alcuna garanzia espressa o implicita.", "Non siamo responsabili per perdita di dati, danni al dispositivo o altri problemi derivanti dall'uso dell'app.", "Non garantiamo l'accuratezza delle risposte dell'IA e delle traduzioni e non siamo responsabili per eventuali danni risultanti."]
+        },
+        {
+          "title": "7. Modifiche e Cessazione del Servizio",
+          "content": "L'operatore può modificare, sospendere o cessare il servizio senza preavviso."
+        },
+        {
+          "title": "8. Modifiche ai Termini",
+          "content": "Questi termini possono essere modificati secondo necessità e i termini aggiornati saranno annunciati tramite l'app o il sito web."
+        },
+        {
+          "title": "9. Contatti",
+          "content": "Per domande sull'utilizzo del servizio, contattaci utilizzando le informazioni seguenti."
         }
       ]
     }

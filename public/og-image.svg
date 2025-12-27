@@ -1,7 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#4A90D9"/>
-  <circle cx="600" cy="250" r="100" fill="#fff" opacity="0.2"/>
-  <path d="M600 180c-25.7 0-46.7 21-46.7 46.7v20h-6.6c-3.7 0-6.7 3-6.7 6.6v60c0 3.7 3 6.7 6.7 6.7h106.6c3.7 0 6.7-3 6.7-6.7v-60c0-3.7-3-6.6-6.7-6.6h-6.6v-20c0-25.7-21-46.7-46.7-46.7zm-26.7 46.7c0-14.7 12-26.7 26.7-26.7s26.7 12 26.7 26.7v20h-53.4v-20zm33.4 60h-13.4l1.7-14c-4-.7-6.7-5.7-6.7-10.4 0-6.3 5.3-11.6 11.7-11.6s11.7 5.3 11.7 11.6c0 4.7-2.7 8.7-6.7 10.4l1.7 14z" fill="#fff"/>
-  <text x="600" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#fff">Privacy Policy</text>
-  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#fff" opacity="0.8">privacy.hyunho.kr</text>
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1"/>
+      <stop offset="100%" style="stop-color:#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- App grid icon -->
+  <g transform="translate(500, 150)">
+    <rect x="0" y="0" width="80" height="80" rx="16" fill="#fff" opacity="0.95"/>
+    <rect x="100" y="0" width="80" height="80" rx="16" fill="#fff" opacity="0.75"/>
+    <rect x="0" y="100" width="80" height="80" rx="16" fill="#fff" opacity="0.75"/>
+    <rect x="100" y="100" width="80" height="80" rx="16" fill="#fff" opacity="0.55"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fff">Apps</text>
+  
+  <!-- URL -->
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#fff" opacity="0.8">app.hyunho.kr</text>
 </svg>

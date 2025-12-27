@@ -13,12 +13,12 @@ interface Section {
   content: string | string[];
 }
 
-export function PrivacyPolicy({ appId, contactEmail, lastUpdated }: Props) {
+export function TermsOfService({ appId, contactEmail, lastUpdated }: Props) {
   const { t } = useTranslation();
 
   const appName = t(`apps.${appId}.name`);
   const description = t(`apps.${appId}.description`);
-  const sections = t(`privacy.${appId}.sections`, { returnObjects: true }) as Section[];
+  const sections = t(`terms.${appId}.sections`, { returnObjects: true }) as Section[];
 
   return (
     <div className={styles.container}>
@@ -28,7 +28,7 @@ export function PrivacyPolicy({ appId, contactEmail, lastUpdated }: Props) {
         </div>
         <h1>{appName}</h1>
         <p className={styles.description}>{description}</p>
-        <h2>{t('common.privacyPolicy')}</h2>
+        <h2>{t('common.termsOfService')}</h2>
         <p className={styles.updated}>{t('common.lastUpdated')}: {lastUpdated}</p>
       </header>
 
