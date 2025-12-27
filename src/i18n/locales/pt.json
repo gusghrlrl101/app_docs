@@ -1,6 +1,9 @@
 {
   "common": {
+    "appList": "Aplicativos",
+    "backToList": "Voltar à lista",
     "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
     "lastUpdated": "Última atualização",
     "contact": "Contato",
     "email": "E-mail",
@@ -21,7 +24,7 @@
       "sections": [
         {
           "title": "1. Informações Pessoais Coletadas",
-          "content": ["Este aplicativo atualmente não fornece funcionalidade de sincronização online, e todos os dados são armazenados apenas no seu dispositivo.", "Informações pessoais coletadas: Nenhuma", "Dados armazenados no dispositivo: Notas de degustação (tipo de bebida, nome, avaliação, notas e outras informações que você inserir)"]
+          "content": ["Este aplicativo armazena todos os dados apenas no seu dispositivo.", "Informações pessoais coletadas: Nenhuma", "Dados armazenados no dispositivo: Notas de degustação (tipo de bebida, nome, avaliação, notas e outras informações que você inserir)"]
         },
         {
           "title": "2. Finalidade da Coleta e Uso",
@@ -40,11 +43,7 @@
           "content": "Quando você excluir o aplicativo, todos os dados armazenados no seu dispositivo serão automaticamente excluídos."
         },
         {
-          "title": "6. Atualizações Futuras",
-          "content": "Se a funcionalidade de sincronização online for adicionada no futuro, esta política de privacidade será atualizada e os usuários serão notificados com antecedência."
-        },
-        {
-          "title": "7. Responsável pela Privacidade",
+          "title": "6. Responsável pela Privacidade",
           "content": "Para consultas relacionadas à privacidade, entre em contato conosco usando as informações abaixo."
         }
       ]
@@ -53,7 +52,7 @@
       "sections": [
         {
           "title": "1. Informações Pessoais Coletadas",
-          "content": ["Este aplicativo opera em um ambiente completamente offline e não coleta nenhuma informação pessoal.", "Informações pessoais coletadas: Nenhuma", "Dados armazenados no dispositivo: Arquivos do modelo de IA (Gemma), histórico de conversas, histórico de traduções (tudo armazenado localmente)"]
+          "content": ["Este aplicativo opera em um ambiente completamente offline e não coleta nenhuma informação pessoal.", "Informações pessoais coletadas: Nenhuma", "Dados armazenados no dispositivo: Arquivos do modelo de IA, histórico de conversas, histórico de traduções (tudo armazenado localmente)"]
         },
         {
           "title": "2. Finalidade da Coleta e Uso",
@@ -73,11 +72,93 @@
         },
         {
           "title": "6. Recursos Offline",
-          "content": ["Chat de IA: Conversa de IA completamente offline usando o modelo Gemma", "Função de tradução: Serviço de tradução que funciona offline", "Todo o processamento é realizado localmente no seu dispositivo e não requer conexão com a Internet."]
+          "content": ["Chat de IA: Conversa de IA completamente offline", "Função de tradução: Serviço de tradução que funciona offline", "Todo o processamento é realizado localmente no seu dispositivo e não requer conexão com a Internet."]
         },
         {
           "title": "7. Responsável pela Privacidade",
           "content": "Para consultas relacionadas à privacidade, entre em contato conosco usando as informações abaixo."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Aceitação dos Termos",
+          "content": "Ao baixar ou usar este aplicativo, você concorda com estes Termos de Serviço. Se você não concordar com estes termos, não use o aplicativo."
+        },
+        {
+          "title": "2. Restrição de Idade",
+          "content": ["Este aplicativo é projetado para registrar notas de degustação de bebidas alcoólicas e está disponível apenas para usuários com idade legal para beber.", "Os usuários devem ter a idade legal para beber em seu respectivo país ou região.", "O uso deste aplicativo por menores é proibido. Este aplicativo não incentiva o consumo de álcool."]
+        },
+        {
+          "title": "3. Descrição do Serviço",
+          "content": ["Este aplicativo fornece um serviço para registrar e gerenciar notas de degustação de whisky, vinho, cerveja, café e mais.", "Todos os dados são armazenados apenas no seu dispositivo."]
+        },
+        {
+          "title": "4. Conteúdo do Usuário",
+          "content": ["Todo o conteúdo criado pelos usuários no aplicativo (notas de degustação, avaliações, memos, etc.) permanece propriedade do usuário.", "Como todos os dados são armazenados apenas no seu dispositivo, o backup e gerenciamento de dados é responsabilidade do usuário."]
+        },
+        {
+          "title": "5. Serviço Pago",
+          "content": ["Este é um aplicativo pago.", "Os pagamentos são processados de acordo com as políticas da Apple App Store ou Google Play Store.", "Os reembolsos estão sujeitos à política de reembolso de cada loja."]
+        },
+        {
+          "title": "6. Isenção de Responsabilidade",
+          "content": ["Este aplicativo é fornecido 'COMO ESTÁ' sem quaisquer garantias expressas ou implícitas.", "Não somos responsáveis por perda de dados, danos ao dispositivo ou outros problemas decorrentes do uso do aplicativo.", "Este aplicativo não incentiva nem promove o consumo de álcool e recomenda beber com responsabilidade."]
+        },
+        {
+          "title": "7. Alterações e Encerramento do Serviço",
+          "content": "O operador pode alterar, suspender ou encerrar o serviço sem aviso prévio."
+        },
+        {
+          "title": "8. Alterações nos Termos",
+          "content": "Estes termos podem ser alterados conforme necessário, e os termos atualizados serão anunciados através do aplicativo ou site."
+        },
+        {
+          "title": "9. Contato",
+          "content": "Para consultas sobre o uso do serviço, entre em contato conosco usando as informações abaixo."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Aceitação dos Termos",
+          "content": "Ao baixar ou usar este aplicativo, você concorda com estes Termos de Serviço. Se você não concordar com estes termos, não use o aplicativo."
+        },
+        {
+          "title": "2. Descrição do Serviço",
+          "content": ["Este aplicativo fornece um assistente de IA e serviço de tradução baseado em LLM offline.", "Todo o processamento de IA é realizado localmente no seu dispositivo e não requer conexão com a Internet.", "O modelo de IA funciona offline após o download inicial."]
+        },
+        {
+          "title": "3. Conteúdo do Usuário",
+          "content": ["Todo o conteúdo criado pelos usuários no aplicativo (histórico de conversas, histórico de traduções, etc.) permanece propriedade do usuário.", "Como todos os dados são armazenados apenas no seu dispositivo, o backup e gerenciamento de dados é responsabilidade do usuário."]
+        },
+        {
+          "title": "4. Conteúdo Gerado por IA",
+          "content": ["Não garantimos a precisão, integridade ou adequação das respostas geradas por IA e resultados de tradução.", "As respostas de IA devem ser usadas apenas como referência. Não confie apenas nas respostas de IA para decisões importantes.", "Não somos responsáveis por quaisquer danos decorrentes de conteúdo gerado por IA."]
+        },
+        {
+          "title": "5. Serviço Pago",
+          "content": ["Este é um aplicativo pago.", "Os pagamentos são processados de acordo com as políticas da Apple App Store ou Google Play Store.", "Os reembolsos estão sujeitos à política de reembolso de cada loja."]
+        },
+        {
+          "title": "6. Isenção de Responsabilidade",
+          "content": ["Este aplicativo é fornecido 'COMO ESTÁ' sem quaisquer garantias expressas ou implícitas.", "Não somos responsáveis por perda de dados, danos ao dispositivo ou outros problemas decorrentes do uso do aplicativo.", "Não garantimos a precisão das respostas de IA e traduções e não somos responsáveis por quaisquer danos resultantes."]
+        },
+        {
+          "title": "7. Alterações e Encerramento do Serviço",
+          "content": "O operador pode alterar, suspender ou encerrar o serviço sem aviso prévio."
+        },
+        {
+          "title": "8. Alterações nos Termos",
+          "content": "Estes termos podem ser alterados conforme necessário, e os termos atualizados serão anunciados através do aplicativo ou site."
+        },
+        {
+          "title": "9. Contato",
+          "content": "Para consultas sobre o uso do serviço, entre em contato conosco usando as informações abaixo."
         }
       ]
     }

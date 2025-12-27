@@ -1,6 +1,9 @@
 {
   "common": {
+    "appList": "Apps",
+    "backToList": "Back to list",
     "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
     "lastUpdated": "Last Updated",
     "contact": "Contact",
     "email": "Email",
@@ -21,7 +24,7 @@
       "sections": [
         {
           "title": "1. Personal Information Collected",
-          "content": ["This app does not currently provide online sync functionality, and all data is stored only on your device.", "Personal information collected: None", "Data stored on device: Tasting notes (beverage type, name, rating, notes, and other information you enter)"]
+          "content": ["This app stores all data only on your device.", "Personal information collected: None", "Data stored on device: Tasting notes (beverage type, name, rating, notes, and other information you enter)"]
         },
         {
           "title": "2. Purpose of Collection and Use",
@@ -40,11 +43,7 @@
           "content": "When you delete the app, all data stored on your device will be automatically deleted."
         },
         {
-          "title": "6. Future Updates",
-          "content": "If online sync functionality is added in the future, this privacy policy will be updated and users will be notified in advance."
-        },
-        {
-          "title": "7. Privacy Officer",
+          "title": "6. Privacy Officer",
           "content": "For privacy-related inquiries, please contact us using the information below."
         }
       ]
@@ -53,7 +52,7 @@
       "sections": [
         {
           "title": "1. Personal Information Collected",
-          "content": ["This app operates in a completely offline environment and does not collect any personal information.", "Personal information collected: None", "Data stored on device: AI model files (Gemma), conversation history, translation history (all stored locally)"]
+          "content": ["This app operates in a completely offline environment and does not collect any personal information.", "Personal information collected: None", "Data stored on device: AI model files, conversation history, translation history (all stored locally)"]
         },
         {
           "title": "2. Purpose of Collection and Use",
@@ -73,11 +72,93 @@
         },
         {
           "title": "6. Offline Features",
-          "content": ["AI Chat: Fully offline AI conversation using the Gemma model", "Translation: Translation service that works offline", "All processing is performed locally on your device and does not require an internet connection."]
+          "content": ["AI Chat: Fully offline AI conversation", "Translation: Translation service that works offline", "All processing is performed locally on your device and does not require an internet connection."]
         },
         {
           "title": "7. Privacy Officer",
           "content": "For privacy-related inquiries, please contact us using the information below."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Agreement to Terms",
+          "content": "By downloading or using this app, you agree to these Terms of Service. If you do not agree to these terms, please do not use the app."
+        },
+        {
+          "title": "2. Age Restriction",
+          "content": ["This app is designed for recording tasting notes for alcoholic beverages and is only available to users of legal drinking age.", "Users must be of legal drinking age in their respective country or region.", "Use of this app by minors is prohibited. This app does not encourage alcohol consumption."]
+        },
+        {
+          "title": "3. Service Description",
+          "content": ["This app provides a service for recording and managing tasting notes for whiskey, wine, beer, coffee, and more.", "All data is stored only on your device."]
+        },
+        {
+          "title": "4. User Content",
+          "content": ["All content created by users in the app (tasting notes, ratings, memos, etc.) remains the property of the user.", "Since all data is stored only on your device, backup and management of data is the user's responsibility."]
+        },
+        {
+          "title": "5. Paid Service",
+          "content": ["This is a paid app.", "Payments are processed according to Apple App Store or Google Play Store policies.", "Refunds are subject to each store's refund policy."]
+        },
+        {
+          "title": "6. Disclaimer",
+          "content": ["This app is provided 'AS-IS' without any express or implied warranties.", "We are not responsible for any data loss, device damage, or other issues arising from use of the app.", "This app does not encourage or promote alcohol consumption and recommends responsible drinking."]
+        },
+        {
+          "title": "7. Service Changes and Termination",
+          "content": "The operator may change, suspend, or terminate the service without prior notice."
+        },
+        {
+          "title": "8. Changes to Terms",
+          "content": "These terms may be changed as needed, and updated terms will be announced through the app or website."
+        },
+        {
+          "title": "9. Contact",
+          "content": "For inquiries regarding service use, please contact us using the information below."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Agreement to Terms",
+          "content": "By downloading or using this app, you agree to these Terms of Service. If you do not agree to these terms, please do not use the app."
+        },
+        {
+          "title": "2. Service Description",
+          "content": ["This app provides an offline LLM based AI assistant and translation service.", "All AI processing is performed locally on your device and does not require an internet connection.", "The AI model operates offline after the initial download."]
+        },
+        {
+          "title": "3. User Content",
+          "content": ["All content created by users in the app (conversation history, translation history, etc.) remains the property of the user.", "Since all data is stored only on your device, backup and management of data is the user's responsibility."]
+        },
+        {
+          "title": "4. AI-Generated Content",
+          "content": ["We do not guarantee the accuracy, completeness, or suitability of AI-generated responses and translation results.", "AI responses should be used for reference only. Do not rely solely on AI responses for important decisions.", "We are not responsible for any damages arising from AI-generated content."]
+        },
+        {
+          "title": "5. Paid Service",
+          "content": ["This is a paid app.", "Payments are processed according to Apple App Store or Google Play Store policies.", "Refunds are subject to each store's refund policy."]
+        },
+        {
+          "title": "6. Disclaimer",
+          "content": ["This app is provided 'AS-IS' without any express or implied warranties.", "We are not responsible for any data loss, device damage, or other issues arising from use of the app.", "We do not guarantee the accuracy of AI responses and translations and are not responsible for any resulting damages."]
+        },
+        {
+          "title": "7. Service Changes and Termination",
+          "content": "The operator may change, suspend, or terminate the service without prior notice."
+        },
+        {
+          "title": "8. Changes to Terms",
+          "content": "These terms may be changed as needed, and updated terms will be announced through the app or website."
+        },
+        {
+          "title": "9. Contact",
+          "content": "For inquiries regarding service use, please contact us using the information below."
         }
       ]
     }

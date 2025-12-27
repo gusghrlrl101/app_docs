@@ -1,6 +1,9 @@
 {
   "common": {
+    "appList": "Applications",
+    "backToList": "Retour à la liste",
     "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
     "lastUpdated": "Dernière mise à jour",
     "contact": "Contact",
     "email": "E-mail",
@@ -21,7 +24,7 @@
       "sections": [
         {
           "title": "1. Informations Personnelles Collectées",
-          "content": ["Cette application ne fournit actuellement pas de fonctionnalité de synchronisation en ligne, et toutes les données sont stockées uniquement sur votre appareil.", "Informations personnelles collectées : Aucune", "Données stockées sur l'appareil : Notes de dégustation (type de boisson, nom, note, commentaires et autres informations que vous saisissez)"]
+          "content": ["Cette application stocke toutes les données uniquement sur votre appareil.", "Informations personnelles collectées : Aucune", "Données stockées sur l'appareil : Notes de dégustation (type de boisson, nom, note, commentaires et autres informations que vous saisissez)"]
         },
         {
           "title": "2. Objectif de la Collecte et de l'Utilisation",
@@ -40,11 +43,7 @@
           "content": "Lorsque vous supprimez l'application, toutes les données stockées sur votre appareil seront automatiquement supprimées."
         },
         {
-          "title": "6. Mises à Jour Futures",
-          "content": "Si une fonctionnalité de synchronisation en ligne est ajoutée à l'avenir, cette politique de confidentialité sera mise à jour et les utilisateurs seront informés à l'avance."
-        },
-        {
-          "title": "7. Responsable de la Confidentialité",
+          "title": "6. Responsable de la Confidentialité",
           "content": "Pour les questions relatives à la confidentialité, veuillez nous contacter en utilisant les informations ci-dessous."
         }
       ]
@@ -53,7 +52,7 @@
       "sections": [
         {
           "title": "1. Informations Personnelles Collectées",
-          "content": ["Cette application fonctionne dans un environnement complètement hors ligne et ne collecte aucune information personnelle.", "Informations personnelles collectées : Aucune", "Données stockées sur l'appareil : Fichiers du modèle IA (Gemma), historique des conversations, historique des traductions (tout stocké localement)"]
+          "content": ["Cette application fonctionne dans un environnement complètement hors ligne et ne collecte aucune information personnelle.", "Informations personnelles collectées : Aucune", "Données stockées sur l'appareil : Fichiers du modèle IA, historique des conversations, historique des traductions (tout stocké localement)"]
         },
         {
           "title": "2. Objectif de la Collecte et de l'Utilisation",
@@ -73,11 +72,93 @@
         },
         {
           "title": "6. Fonctionnalités Hors Ligne",
-          "content": ["Chat IA : Conversation IA complètement hors ligne utilisant le modèle Gemma", "Fonction de traduction : Service de traduction fonctionnant hors ligne", "Tout le traitement est effectué localement sur votre appareil et ne nécessite pas de connexion Internet."]
+          "content": ["Chat IA : Conversation IA complètement hors ligne", "Fonction de traduction : Service de traduction fonctionnant hors ligne", "Tout le traitement est effectué localement sur votre appareil et ne nécessite pas de connexion Internet."]
         },
         {
           "title": "7. Responsable de la Confidentialité",
           "content": "Pour les questions relatives à la confidentialité, veuillez nous contacter en utilisant les informations ci-dessous."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Acceptation des Conditions",
+          "content": "En téléchargeant ou en utilisant cette application, vous acceptez ces Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application."
+        },
+        {
+          "title": "2. Restriction d'Âge",
+          "content": ["Cette application est conçue pour enregistrer des notes de dégustation de boissons alcoolisées et n'est disponible que pour les utilisateurs ayant l'âge légal de consommation d'alcool.", "Les utilisateurs doivent avoir l'âge légal de consommation d'alcool dans leur pays ou région respectif.", "L'utilisation de cette application par des mineurs est interdite. Cette application n'encourage pas la consommation d'alcool."]
+        },
+        {
+          "title": "3. Description du Service",
+          "content": ["Cette application fournit un service pour enregistrer et gérer des notes de dégustation de whisky, vin, bière, café et plus.", "Toutes les données sont stockées uniquement sur votre appareil."]
+        },
+        {
+          "title": "4. Contenu Utilisateur",
+          "content": ["Tout le contenu créé par les utilisateurs dans l'application (notes de dégustation, évaluations, mémos, etc.) reste la propriété de l'utilisateur.", "Puisque toutes les données sont stockées uniquement sur votre appareil, la sauvegarde et la gestion des données sont de la responsabilité de l'utilisateur."]
+        },
+        {
+          "title": "5. Service Payant",
+          "content": ["Ceci est une application payante.", "Les paiements sont traités conformément aux politiques de l'Apple App Store ou du Google Play Store.", "Les remboursements sont soumis à la politique de remboursement de chaque magasin."]
+        },
+        {
+          "title": "6. Clause de Non-Responsabilité",
+          "content": ["Cette application est fournie 'EN L'ÉTAT' sans aucune garantie expresse ou implicite.", "Nous ne sommes pas responsables de la perte de données, des dommages à l'appareil ou d'autres problèmes résultant de l'utilisation de l'application.", "Cette application n'encourage ni ne promeut la consommation d'alcool et recommande une consommation responsable."]
+        },
+        {
+          "title": "7. Modifications et Résiliation du Service",
+          "content": "L'opérateur peut modifier, suspendre ou résilier le service sans préavis."
+        },
+        {
+          "title": "8. Modifications des Conditions",
+          "content": "Ces conditions peuvent être modifiées si nécessaire, et les conditions mises à jour seront annoncées via l'application ou le site web."
+        },
+        {
+          "title": "9. Contact",
+          "content": "Pour les questions concernant l'utilisation du service, veuillez nous contacter en utilisant les informations ci-dessous."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Acceptation des Conditions",
+          "content": "En téléchargeant ou en utilisant cette application, vous acceptez ces Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application."
+        },
+        {
+          "title": "2. Description du Service",
+          "content": ["Cette application fournit un assistant IA et un service de traduction basé sur LLM hors ligne.", "Tout le traitement IA est effectué localement sur votre appareil et ne nécessite pas de connexion Internet.", "Le modèle IA fonctionne hors ligne après le téléchargement initial."]
+        },
+        {
+          "title": "3. Contenu Utilisateur",
+          "content": ["Tout le contenu créé par les utilisateurs dans l'application (historique des conversations, historique des traductions, etc.) reste la propriété de l'utilisateur.", "Puisque toutes les données sont stockées uniquement sur votre appareil, la sauvegarde et la gestion des données sont de la responsabilité de l'utilisateur."]
+        },
+        {
+          "title": "4. Contenu Généré par l'IA",
+          "content": ["Nous ne garantissons pas l'exactitude, l'exhaustivité ou l'adéquation des réponses générées par l'IA et des résultats de traduction.", "Les réponses de l'IA doivent être utilisées uniquement à titre de référence. Ne vous fiez pas uniquement aux réponses de l'IA pour des décisions importantes.", "Nous ne sommes pas responsables des dommages résultant du contenu généré par l'IA."]
+        },
+        {
+          "title": "5. Service Payant",
+          "content": ["Ceci est une application payante.", "Les paiements sont traités conformément aux politiques de l'Apple App Store ou du Google Play Store.", "Les remboursements sont soumis à la politique de remboursement de chaque magasin."]
+        },
+        {
+          "title": "6. Clause de Non-Responsabilité",
+          "content": ["Cette application est fournie 'EN L'ÉTAT' sans aucune garantie expresse ou implicite.", "Nous ne sommes pas responsables de la perte de données, des dommages à l'appareil ou d'autres problèmes résultant de l'utilisation de l'application.", "Nous ne garantissons pas l'exactitude des réponses de l'IA et des traductions et ne sommes pas responsables des dommages en résultant."]
+        },
+        {
+          "title": "7. Modifications et Résiliation du Service",
+          "content": "L'opérateur peut modifier, suspendre ou résilier le service sans préavis."
+        },
+        {
+          "title": "8. Modifications des Conditions",
+          "content": "Ces conditions peuvent être modifiées si nécessaire, et les conditions mises à jour seront annoncées via l'application ou le site web."
+        },
+        {
+          "title": "9. Contact",
+          "content": "Pour les questions concernant l'utilisation du service, veuillez nous contacter en utilisant les informations ci-dessous."
         }
       ]
     }

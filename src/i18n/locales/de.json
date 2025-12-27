@@ -1,6 +1,9 @@
 {
   "common": {
+    "appList": "Apps",
+    "backToList": "Zurück zur Liste",
     "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
     "lastUpdated": "Zuletzt aktualisiert",
     "contact": "Kontakt",
     "email": "E-Mail",
@@ -21,7 +24,7 @@
       "sections": [
         {
           "title": "1. Erhobene Personenbezogene Daten",
-          "content": ["Diese App bietet derzeit keine Online-Synchronisierungsfunktion, und alle Daten werden nur auf Ihrem Gerät gespeichert.", "Erhobene personenbezogene Daten: Keine", "Auf dem Gerät gespeicherte Daten: Verkostungsnotizen (Getränkeart, Name, Bewertung, Notizen und andere von Ihnen eingegebene Informationen)"]
+          "content": ["Diese App speichert alle Daten nur auf Ihrem Gerät.", "Erhobene personenbezogene Daten: Keine", "Auf dem Gerät gespeicherte Daten: Verkostungsnotizen (Getränkeart, Name, Bewertung, Notizen und andere von Ihnen eingegebene Informationen)"]
         },
         {
           "title": "2. Zweck der Erhebung und Nutzung",
@@ -40,11 +43,7 @@
           "content": "Wenn Sie die App löschen, werden alle auf Ihrem Gerät gespeicherten Daten automatisch gelöscht."
         },
         {
-          "title": "6. Zukünftige Updates",
-          "content": "Wenn in Zukunft eine Online-Synchronisierungsfunktion hinzugefügt wird, wird diese Datenschutzrichtlinie aktualisiert und die Benutzer werden im Voraus benachrichtigt."
-        },
-        {
-          "title": "7. Datenschutzbeauftragter",
+          "title": "6. Datenschutzbeauftragter",
           "content": "Bei datenschutzbezogenen Anfragen kontaktieren Sie uns bitte über die unten stehenden Informationen."
         }
       ]
@@ -53,7 +52,7 @@
       "sections": [
         {
           "title": "1. Erhobene Personenbezogene Daten",
-          "content": ["Diese App arbeitet in einer vollständig offline Umgebung und erhebt keine personenbezogenen Daten.", "Erhobene personenbezogene Daten: Keine", "Auf dem Gerät gespeicherte Daten: KI-Modelldateien (Gemma), Gesprächsverlauf, Übersetzungsverlauf (alles lokal gespeichert)"]
+          "content": ["Diese App arbeitet in einer vollständig offline Umgebung und erhebt keine personenbezogenen Daten.", "Erhobene personenbezogene Daten: Keine", "Auf dem Gerät gespeicherte Daten: KI-Modelldateien, Gesprächsverlauf, Übersetzungsverlauf (alles lokal gespeichert)"]
         },
         {
           "title": "2. Zweck der Erhebung und Nutzung",
@@ -73,11 +72,93 @@
         },
         {
           "title": "6. Offline-Funktionen",
-          "content": ["KI-Chat: Vollständig offline KI-Gespräch mit dem Gemma-Modell", "Übersetzungsfunktion: Übersetzungsdienst, der offline funktioniert", "Alle Verarbeitung erfolgt lokal auf Ihrem Gerät und erfordert keine Internetverbindung."]
+          "content": ["KI-Chat: Vollständig offline KI-Gespräch", "Übersetzungsfunktion: Übersetzungsdienst, der offline funktioniert", "Alle Verarbeitung erfolgt lokal auf Ihrem Gerät und erfordert keine Internetverbindung."]
         },
         {
           "title": "7. Datenschutzbeauftragter",
           "content": "Bei datenschutzbezogenen Anfragen kontaktieren Sie uns bitte über die unten stehenden Informationen."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "after-taste": {
+      "sections": [
+        {
+          "title": "1. Zustimmung zu den Bedingungen",
+          "content": "Durch das Herunterladen oder Verwenden dieser App stimmen Sie diesen Nutzungsbedingungen zu. Wenn Sie diesen Bedingungen nicht zustimmen, verwenden Sie die App bitte nicht."
+        },
+        {
+          "title": "2. Altersbeschränkung",
+          "content": ["Diese App ist für die Aufzeichnung von Verkostungsnotizen für alkoholische Getränke konzipiert und steht nur Benutzern im gesetzlichen Trinkalter zur Verfügung.", "Benutzer müssen das gesetzliche Trinkalter in ihrem jeweiligen Land oder ihrer Region erreicht haben.", "Die Nutzung dieser App durch Minderjährige ist verboten. Diese App fördert keinen Alkoholkonsum."]
+        },
+        {
+          "title": "3. Servicebeschreibung",
+          "content": ["Diese App bietet einen Service zum Aufzeichnen und Verwalten von Verkostungsnotizen für Whisky, Wein, Bier, Kaffee und mehr.", "Alle Daten werden nur auf Ihrem Gerät gespeichert."]
+        },
+        {
+          "title": "4. Benutzerinhalte",
+          "content": ["Alle vom Benutzer in der App erstellten Inhalte (Verkostungsnotizen, Bewertungen, Memos usw.) bleiben Eigentum des Benutzers.", "Da alle Daten nur auf Ihrem Gerät gespeichert werden, liegt die Sicherung und Verwaltung der Daten in der Verantwortung des Benutzers."]
+        },
+        {
+          "title": "5. Kostenpflichtiger Service",
+          "content": ["Dies ist eine kostenpflichtige App.", "Zahlungen werden gemäß den Richtlinien des Apple App Store oder Google Play Store verarbeitet.", "Rückerstattungen unterliegen den Rückerstattungsrichtlinien des jeweiligen Stores."]
+        },
+        {
+          "title": "6. Haftungsausschluss",
+          "content": ["Diese App wird 'WIE BESEHEN' ohne ausdrückliche oder stillschweigende Garantien bereitgestellt.", "Wir sind nicht verantwortlich für Datenverlust, Geräteschäden oder andere Probleme, die durch die Nutzung der App entstehen.", "Diese App fördert oder bewirbt keinen Alkoholkonsum und empfiehlt verantwortungsvollen Umgang mit Alkohol."]
+        },
+        {
+          "title": "7. Serviceänderungen und -beendigung",
+          "content": "Der Betreiber kann den Service ohne vorherige Ankündigung ändern, aussetzen oder beenden."
+        },
+        {
+          "title": "8. Änderungen der Bedingungen",
+          "content": "Diese Bedingungen können bei Bedarf geändert werden, und aktualisierte Bedingungen werden über die App oder Website bekannt gegeben."
+        },
+        {
+          "title": "9. Kontakt",
+          "content": "Bei Fragen zur Servicenutzung kontaktieren Sie uns bitte über die unten stehenden Informationen."
+        }
+      ]
+    },
+    "pocket-ai": {
+      "sections": [
+        {
+          "title": "1. Zustimmung zu den Bedingungen",
+          "content": "Durch das Herunterladen oder Verwenden dieser App stimmen Sie diesen Nutzungsbedingungen zu. Wenn Sie diesen Bedingungen nicht zustimmen, verwenden Sie die App bitte nicht."
+        },
+        {
+          "title": "2. Servicebeschreibung",
+          "content": ["Diese App bietet einen offline LLM basierten KI-Assistenten und Übersetzungsdienst.", "Alle KI-Verarbeitung erfolgt lokal auf Ihrem Gerät und erfordert keine Internetverbindung.", "Das KI-Modell arbeitet nach dem ersten Download offline."]
+        },
+        {
+          "title": "3. Benutzerinhalte",
+          "content": ["Alle vom Benutzer in der App erstellten Inhalte (Gesprächsverlauf, Übersetzungsverlauf usw.) bleiben Eigentum des Benutzers.", "Da alle Daten nur auf Ihrem Gerät gespeichert werden, liegt die Sicherung und Verwaltung der Daten in der Verantwortung des Benutzers."]
+        },
+        {
+          "title": "4. KI-generierte Inhalte",
+          "content": ["Wir garantieren nicht die Genauigkeit, Vollständigkeit oder Eignung von KI-generierten Antworten und Übersetzungsergebnissen.", "KI-Antworten sollten nur als Referenz verwendet werden. Verlassen Sie sich bei wichtigen Entscheidungen nicht ausschließlich auf KI-Antworten.", "Wir sind nicht verantwortlich für Schäden, die durch KI-generierte Inhalte entstehen."]
+        },
+        {
+          "title": "5. Kostenpflichtiger Service",
+          "content": ["Dies ist eine kostenpflichtige App.", "Zahlungen werden gemäß den Richtlinien des Apple App Store oder Google Play Store verarbeitet.", "Rückerstattungen unterliegen den Rückerstattungsrichtlinien des jeweiligen Stores."]
+        },
+        {
+          "title": "6. Haftungsausschluss",
+          "content": ["Diese App wird 'WIE BESEHEN' ohne ausdrückliche oder stillschweigende Garantien bereitgestellt.", "Wir sind nicht verantwortlich für Datenverlust, Geräteschäden oder andere Probleme, die durch die Nutzung der App entstehen.", "Wir garantieren nicht die Genauigkeit von KI-Antworten und Übersetzungen und sind nicht verantwortlich für daraus resultierende Schäden."]
+        },
+        {
+          "title": "7. Serviceänderungen und -beendigung",
+          "content": "Der Betreiber kann den Service ohne vorherige Ankündigung ändern, aussetzen oder beenden."
+        },
+        {
+          "title": "8. Änderungen der Bedingungen",
+          "content": "Diese Bedingungen können bei Bedarf geändert werden, und aktualisierte Bedingungen werden über die App oder Website bekannt gegeben."
+        },
+        {
+          "title": "9. Kontakt",
+          "content": "Bei Fragen zur Servicenutzung kontaktieren Sie uns bitte über die unten stehenden Informationen."
         }
       ]
     }

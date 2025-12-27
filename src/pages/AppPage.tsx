@@ -1,13 +1,28 @@
-import { Link } from 'react-router-dom';
+import { useParams, Navigate, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LanguageSelector } from '../components/LanguageSelector';
 import { useLangParam } from '../hooks/useLangParam';
 import { apps } from '../data';
 import styles from '../components/PrivacyPolicy.module.css';
 
-export function Home() {
+export function AppPage() {
+  const { appId } = useParams<{ appId: string }>();
   const { t, i18n } = useTranslation();
   useLangParam();
+
+  const app = apps.find((a) => a.path === appId);
+
+  if (!app) {
+    return <Navigate to="/" replace />;
+  }
+
+  const appName = t(`apps.${appId}.name`);
+  const description = t(`apps.${appId}.description`);
+
+  const links = [
+    { path: 'privacy', label: t('common.privacyPolicy') },
+    { path: 'terms', label: t('common.termsOfService') },
+  ];
 
   return (
     <div className={styles.container}>
@@ -15,15 +30,16 @@ export function Home() {
         <div className={styles.langSelector}>
           <LanguageSelector />
         </div>
-        <h1>{t('common.appList')}</h1>
+        <h1>{appName}</h1>
+        <p className={styles.description}>{description}</p>
       </header>
 
       <main>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-          {apps.map((app) => (
+          {links.map((link) => (
             <Link
-              key={app.path}
-              to={`/${app.path}?lang=${i18n.language}`}
+              key={link.path}
+              to={`/${appId}/${link.path}?lang=${i18n.language}`}
               style={{
                 padding: '16px 24px',
                 background: '#f5f5f5',
@@ -36,14 +52,20 @@ export function Home() {
               onMouseOver={(e) => (e.currentTarget.style.background = '#eee')}
               onMouseOut={(e) => (e.currentTarget.style.background = '#f5f5f5')}
             >
-              <div style={{ fontWeight: 600 }}>{t(`apps.${app.path}.name`)}</div>
-              <div style={{ fontSize: '0.9rem', color: '#666', marginTop: 4 }}>
-                {t(`apps.${app.path}.description`)}
-              </div>
+              {link.label}
             </Link>
           ))}
         </div>
       </main>
+
+      <footer className={styles.footer} style={{ marginTop: 40 }}>
+        <Link
+          to={`/?lang=${i18n.language}`}
+          style={{ color: '#666', textDecoration: 'none' }}
+        >
+          ← {t('common.backToList')}
+        </Link>
+      </footer>
     </div>
   );
 }
