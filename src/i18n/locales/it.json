@@ -75,7 +75,11 @@
           "content": ["Chat IA: Conversazione IA completamente offline", "Funzione di traduzione: Servizio di traduzione che funziona offline", "Tutta l'elaborazione viene eseguita localmente sul tuo dispositivo e non richiede una connessione Internet."]
         },
         {
-          "title": "7. Responsabile della Privacy",
+          "title": "7. Modello IA ed Elaborazione Dati",
+          "content": "Questa app esegue il modello Google Gemma IA sul dispositivo. I tuoi dati di input non vengono trasmessi a server esterni e tutta l'elaborazione IA viene eseguita localmente sul tuo dispositivo. Sei l'unico responsabile degli output generati dall'IA."
+        },
+        {
+          "title": "8. Responsabile della Privacy",
           "content": "Per domande relative alla privacy, contattaci utilizzando le informazioni seguenti."
         }
       ]
@@ -145,19 +149,23 @@
           "content": ["Questa è un'app a pagamento.", "I pagamenti vengono elaborati secondo le politiche dell'Apple App Store o del Google Play Store.", "I rimborsi sono soggetti alla politica di rimborso di ciascun negozio."]
         },
         {
-          "title": "6. Esclusione di Responsabilità",
+          "title": "6. Restrizioni sull'Uso del Modello IA",
+          "content": ["Questa app utilizza il modello Google Gemma IA. Gli utenti non devono:", "• Generare contenuti che violano i diritti d'autore", "• Facilitare o promuovere attività illegali", "• Utilizzare per scopi di consulenza professionale come medica, legale o finanziaria", "• Generare contenuti che promuovono odio, molestie o violenza", "• Generare o tracciare informazioni personali", "• Generare disinformazione, impersonificazione o contenuti diffamatori", "• Generare contenuti sessualmente espliciti", "Le violazioni possono comportare restrizioni del servizio. Per dettagli, consulta la Gemma Prohibited Use Policy su ai.google.dev/gemma/prohibited_use_policy.", "Gemma è fornito secondo i Termini di Utilizzo di Gemma disponibili su ai.google.dev/gemma/terms."]
+        },
+        {
+          "title": "7. Esclusione di Responsabilità",
           "content": ["Questa app viene fornita 'COSÌ COM'È' senza alcuna garanzia espressa o implicita.", "Non siamo responsabili per perdita di dati, danni al dispositivo o altri problemi derivanti dall'uso dell'app.", "Non garantiamo l'accuratezza delle risposte dell'IA e delle traduzioni e non siamo responsabili per eventuali danni risultanti."]
         },
         {
-          "title": "7. Modifiche e Cessazione del Servizio",
+          "title": "8. Modifiche e Cessazione del Servizio",
           "content": "L'operatore può modificare, sospendere o cessare il servizio senza preavviso."
         },
         {
-          "title": "8. Modifiche ai Termini",
+          "title": "9. Modifiche ai Termini",
           "content": "Questi termini possono essere modificati secondo necessità e i termini aggiornati saranno annunciati tramite l'app o il sito web."
         },
         {
-          "title": "9. Contatti",
+          "title": "10. Contatti",
           "content": "Per domande sull'utilizzo del servizio, contattaci utilizzando le informazioni seguenti."
         }
       ]

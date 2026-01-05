@@ -7,8 +7,8 @@ import styles from '../components/PrivacyPolicy.module.css';
 
 export function AppPage() {
   const { appId } = useParams<{ appId: string }>();
-  const { t, i18n } = useTranslation();
-  useLangParam();
+  const { t } = useTranslation();
+  const { getLangQuery } = useLangParam();
 
   const app = apps.find((a) => a.path === appId);
 
@@ -39,7 +39,7 @@ export function AppPage() {
           {links.map((link) => (
             <Link
               key={link.path}
-              to={`/${appId}/${link.path}?lang=${i18n.language}`}
+              to={`/${appId}/${link.path}${getLangQuery()}`}
               style={{
                 padding: '16px 24px',
                 background: '#f5f5f5',
@@ -60,7 +60,7 @@ export function AppPage() {
 
       <footer className={styles.footer} style={{ marginTop: 40 }}>
         <Link
-          to={`/?lang=${i18n.language}`}
+          to={`/${getLangQuery()}`}
           style={{ color: '#666', textDecoration: 'none' }}
         >
           ← {t('common.backToList')}

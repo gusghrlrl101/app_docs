@@ -75,7 +75,11 @@
           "content": ["Chat IA : Conversation IA complètement hors ligne", "Fonction de traduction : Service de traduction fonctionnant hors ligne", "Tout le traitement est effectué localement sur votre appareil et ne nécessite pas de connexion Internet."]
         },
         {
-          "title": "7. Responsable de la Confidentialité",
+          "title": "7. Modèle IA et Traitement des Données",
+          "content": "Cette application exécute le modèle Google Gemma IA sur l'appareil. Vos données d'entrée ne sont pas transmises à des serveurs externes, et tout le traitement IA est effectué localement sur votre appareil. Vous êtes seul responsable des sorties générées par l'IA."
+        },
+        {
+          "title": "8. Responsable de la Confidentialité",
           "content": "Pour les questions relatives à la confidentialité, veuillez nous contacter en utilisant les informations ci-dessous."
         }
       ]
@@ -145,19 +149,23 @@
           "content": ["Ceci est une application payante.", "Les paiements sont traités conformément aux politiques de l'Apple App Store ou du Google Play Store.", "Les remboursements sont soumis à la politique de remboursement de chaque magasin."]
         },
         {
-          "title": "6. Clause de Non-Responsabilité",
+          "title": "6. Restrictions d'Utilisation du Modèle IA",
+          "content": ["Cette application utilise le modèle Google Gemma IA. Les utilisateurs ne doivent pas :", "• Générer du contenu violant les droits d'auteur", "• Faciliter ou promouvoir des activités illégales", "• Utiliser à des fins de conseils professionnels tels que médicaux, juridiques ou financiers", "• Générer du contenu promouvant la haine, le harcèlement ou la violence", "• Générer ou suivre des informations personnelles", "• Générer de la désinformation, de l'usurpation d'identité ou du contenu diffamatoire", "• Générer du contenu sexuellement explicite", "Les violations peuvent entraîner des restrictions de service. Pour plus de détails, consultez la Gemma Prohibited Use Policy sur ai.google.dev/gemma/prohibited_use_policy.", "Gemma est fourni sous réserve des Conditions d'Utilisation de Gemma disponibles sur ai.google.dev/gemma/terms."]
+        },
+        {
+          "title": "7. Clause de Non-Responsabilité",
           "content": ["Cette application est fournie 'EN L'ÉTAT' sans aucune garantie expresse ou implicite.", "Nous ne sommes pas responsables de la perte de données, des dommages à l'appareil ou d'autres problèmes résultant de l'utilisation de l'application.", "Nous ne garantissons pas l'exactitude des réponses de l'IA et des traductions et ne sommes pas responsables des dommages en résultant."]
         },
         {
-          "title": "7. Modifications et Résiliation du Service",
+          "title": "8. Modifications et Résiliation du Service",
           "content": "L'opérateur peut modifier, suspendre ou résilier le service sans préavis."
         },
         {
-          "title": "8. Modifications des Conditions",
+          "title": "9. Modifications des Conditions",
           "content": "Ces conditions peuvent être modifiées si nécessaire, et les conditions mises à jour seront annoncées via l'application ou le site web."
         },
         {
-          "title": "9. Contact",
+          "title": "10. Contact",
           "content": "Pour les questions concernant l'utilisation du service, veuillez nous contacter en utilisant les informations ci-dessous."
         }
       ]

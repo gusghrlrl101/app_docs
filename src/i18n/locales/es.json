@@ -75,7 +75,11 @@
           "content": ["Chat de IA: Conversación de IA completamente sin conexión", "Función de traducción: Servicio de traducción que funciona sin conexión", "Todo el procesamiento se realiza localmente en su dispositivo y no requiere conexión a Internet."]
         },
         {
-          "title": "7. Responsable de Privacidad",
+          "title": "7. Modelo de IA y Procesamiento de Datos",
+          "content": "Esta aplicación ejecuta el modelo Google Gemma IA en el dispositivo. Sus datos de entrada no se transmiten a servidores externos, y todo el procesamiento de IA se realiza localmente en su dispositivo. Usted es el único responsable de las salidas generadas por la IA."
+        },
+        {
+          "title": "8. Responsable de Privacidad",
           "content": "Para consultas relacionadas con la privacidad, contáctenos utilizando la información a continuación."
         }
       ]
@@ -145,19 +149,23 @@
           "content": ["Esta es una aplicación de pago.", "Los pagos se procesan de acuerdo con las políticas de Apple App Store o Google Play Store.", "Los reembolsos están sujetos a la política de reembolso de cada tienda."]
         },
         {
-          "title": "6. Descargo de Responsabilidad",
+          "title": "6. Restricciones de Uso del Modelo de IA",
+          "content": ["Esta aplicación utiliza el modelo Google Gemma IA. Los usuarios no deben:", "• Generar contenido que infrinja derechos de autor", "• Facilitar o promover actividades ilegales", "• Usar para fines de asesoramiento profesional como médico, legal o financiero", "• Generar contenido que promueva el odio, el acoso o la violencia", "• Generar o rastrear información personal", "• Generar desinformación, suplantación de identidad o contenido difamatorio", "• Generar contenido sexualmente explícito", "Las violaciones pueden resultar en restricciones del servicio. Para más detalles, consulte la Gemma Prohibited Use Policy en ai.google.dev/gemma/prohibited_use_policy.", "Gemma se proporciona bajo y está sujeto a los Términos de Uso de Gemma que se encuentran en ai.google.dev/gemma/terms."]
+        },
+        {
+          "title": "7. Descargo de Responsabilidad",
           "content": ["Esta aplicación se proporciona 'TAL CUAL' sin garantías expresas o implícitas.", "No somos responsables de la pérdida de datos, daños al dispositivo u otros problemas derivados del uso de la aplicación.", "No garantizamos la precisión de las respuestas de IA y las traducciones y no somos responsables de los daños resultantes."]
         },
         {
-          "title": "7. Cambios y Terminación del Servicio",
+          "title": "8. Cambios y Terminación del Servicio",
           "content": "El operador puede cambiar, suspender o terminar el servicio sin previo aviso."
         },
         {
-          "title": "8. Cambios en los Términos",
+          "title": "9. Cambios en los Términos",
           "content": "Estos términos pueden cambiar según sea necesario, y los términos actualizados se anunciarán a través de la aplicación o el sitio web."
         },
         {
-          "title": "9. Contacto",
+          "title": "10. Contacto",
           "content": "Para consultas sobre el uso del servicio, contáctenos utilizando la información a continuación."
         }
       ]

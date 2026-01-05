@@ -75,7 +75,11 @@
           "content": ["KI-Chat: Vollständig offline KI-Gespräch", "Übersetzungsfunktion: Übersetzungsdienst, der offline funktioniert", "Alle Verarbeitung erfolgt lokal auf Ihrem Gerät und erfordert keine Internetverbindung."]
         },
         {
-          "title": "7. Datenschutzbeauftragter",
+          "title": "7. KI-Modell und Datenverarbeitung",
+          "content": "Diese App führt das Google Gemma KI-Modell auf dem Gerät aus. Ihre Eingabedaten werden nicht an externe Server übertragen, und alle KI-Verarbeitung erfolgt lokal auf Ihrem Gerät. Sie sind allein verantwortlich für die von der KI generierten Ausgaben."
+        },
+        {
+          "title": "8. Datenschutzbeauftragter",
           "content": "Bei datenschutzbezogenen Anfragen kontaktieren Sie uns bitte über die unten stehenden Informationen."
         }
       ]
@@ -145,19 +149,23 @@
           "content": ["Dies ist eine kostenpflichtige App.", "Zahlungen werden gemäß den Richtlinien des Apple App Store oder Google Play Store verarbeitet.", "Rückerstattungen unterliegen den Rückerstattungsrichtlinien des jeweiligen Stores."]
         },
         {
-          "title": "6. Haftungsausschluss",
+          "title": "6. Nutzungsbeschränkungen für KI-Modelle",
+          "content": ["Diese App verwendet das Google Gemma KI-Modell. Benutzer dürfen nicht:", "• Urheberrechtsverletzende Inhalte erstellen", "• Illegale Aktivitäten fördern oder unterstützen", "• Für professionelle Beratungszwecke wie medizinische, rechtliche oder finanzielle Beratung verwenden", "• Inhalte erstellen, die Hass, Belästigung oder Gewalt fördern", "• Persönliche Informationen erstellen oder verfolgen", "• Fehlinformationen, Identitätsbetrug oder verleumderische Inhalte erstellen", "• Sexuell explizite Inhalte erstellen", "Verstöße können zu Servicebeschränkungen führen. Details finden Sie in der Gemma Prohibited Use Policy unter ai.google.dev/gemma/prohibited_use_policy.", "Gemma wird gemäß den Gemma-Nutzungsbedingungen bereitgestellt, die unter ai.google.dev/gemma/terms zu finden sind."]
+        },
+        {
+          "title": "7. Haftungsausschluss",
           "content": ["Diese App wird 'WIE BESEHEN' ohne ausdrückliche oder stillschweigende Garantien bereitgestellt.", "Wir sind nicht verantwortlich für Datenverlust, Geräteschäden oder andere Probleme, die durch die Nutzung der App entstehen.", "Wir garantieren nicht die Genauigkeit von KI-Antworten und Übersetzungen und sind nicht verantwortlich für daraus resultierende Schäden."]
         },
         {
-          "title": "7. Serviceänderungen und -beendigung",
+          "title": "8. Serviceänderungen und -beendigung",
           "content": "Der Betreiber kann den Service ohne vorherige Ankündigung ändern, aussetzen oder beenden."
         },
         {
-          "title": "8. Änderungen der Bedingungen",
+          "title": "9. Änderungen der Bedingungen",
           "content": "Diese Bedingungen können bei Bedarf geändert werden, und aktualisierte Bedingungen werden über die App oder Website bekannt gegeben."
         },
         {
-          "title": "9. Kontakt",
+          "title": "10. Kontakt",
           "content": "Bei Fragen zur Servicenutzung kontaktieren Sie uns bitte über die unten stehenden Informationen."
         }
       ]

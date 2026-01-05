@@ -16,7 +16,7 @@ export const apps: AppConfig[] = [
   },
   {
     path: 'pocket-ai',
-    privacyUpdated: '2025-12-27',
-    termsUpdated: '2025-12-27',
+    privacyUpdated: '2026-01-06',
+    termsUpdated: '2026-01-06',
   },
 ];

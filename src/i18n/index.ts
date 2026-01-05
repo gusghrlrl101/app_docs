@@ -46,6 +46,11 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    detection: {
+      order: ['querystring', 'navigator'],
+      lookupQuerystring: 'lang',
+      caches: [],
+    },
   });
 
 export default i18n;

@@ -75,7 +75,11 @@
           "content": ["Chat de IA: Conversa de IA completamente offline", "Função de tradução: Serviço de tradução que funciona offline", "Todo o processamento é realizado localmente no seu dispositivo e não requer conexão com a Internet."]
         },
         {
-          "title": "7. Responsável pela Privacidade",
+          "title": "7. Modelo de IA e Processamento de Dados",
+          "content": "Este aplicativo executa o modelo Google Gemma IA no dispositivo. Seus dados de entrada não são transmitidos para servidores externos, e todo o processamento de IA é realizado localmente no seu dispositivo. Você é o único responsável pelas saídas geradas pela IA."
+        },
+        {
+          "title": "8. Responsável pela Privacidade",
           "content": "Para consultas relacionadas à privacidade, entre em contato conosco usando as informações abaixo."
         }
       ]
@@ -145,19 +149,23 @@
           "content": ["Este é um aplicativo pago.", "Os pagamentos são processados de acordo com as políticas da Apple App Store ou Google Play Store.", "Os reembolsos estão sujeitos à política de reembolso de cada loja."]
         },
         {
-          "title": "6. Isenção de Responsabilidade",
+          "title": "6. Restrições de Uso do Modelo de IA",
+          "content": ["Este aplicativo usa o modelo Google Gemma IA. Os usuários não devem:", "• Gerar conteúdo que viole direitos autorais", "• Facilitar ou promover atividades ilegais", "• Usar para fins de aconselhamento profissional como médico, jurídico ou financeiro", "• Gerar conteúdo que promova ódio, assédio ou violência", "• Gerar ou rastrear informações pessoais", "• Gerar desinformação, falsificação de identidade ou conteúdo difamatório", "• Gerar conteúdo sexualmente explícito", "Violações podem resultar em restrições de serviço. Para detalhes, consulte a Gemma Prohibited Use Policy em ai.google.dev/gemma/prohibited_use_policy.", "Gemma é fornecido sob e sujeito aos Termos de Uso do Gemma encontrados em ai.google.dev/gemma/terms."]
+        },
+        {
+          "title": "7. Isenção de Responsabilidade",
           "content": ["Este aplicativo é fornecido 'COMO ESTÁ' sem quaisquer garantias expressas ou implícitas.", "Não somos responsáveis por perda de dados, danos ao dispositivo ou outros problemas decorrentes do uso do aplicativo.", "Não garantimos a precisão das respostas de IA e traduções e não somos responsáveis por quaisquer danos resultantes."]
         },
         {
-          "title": "7. Alterações e Encerramento do Serviço",
+          "title": "8. Alterações e Encerramento do Serviço",
           "content": "O operador pode alterar, suspender ou encerrar o serviço sem aviso prévio."
         },
         {
-          "title": "8. Alterações nos Termos",
+          "title": "9. Alterações nos Termos",
           "content": "Estes termos podem ser alterados conforme necessário, e os termos atualizados serão anunciados através do aplicativo ou site."
         },
         {
-          "title": "9. Contato",
+          "title": "10. Contato",
           "content": "Para consultas sobre o uso do serviço, entre em contato conosco usando as informações abaixo."
         }
       ]

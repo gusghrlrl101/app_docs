@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LanguageSelector } from './LanguageSelector';
+import { useLangParam } from '../hooks/useLangParam';
 import styles from './PrivacyPolicy.module.css';
 
 interface Props {
@@ -15,6 +17,7 @@ interface Section {
 
 export function TermsOfService({ appId, contactEmail, lastUpdated }: Props) {
   const { t } = useTranslation();
+  const { getLangQuery } = useLangParam();
 
   const appName = t(`apps.${appId}.name`);
   const description = t(`apps.${appId}.description`);
@@ -55,6 +58,12 @@ export function TermsOfService({ appId, contactEmail, lastUpdated }: Props) {
       </main>
 
       <footer className={styles.footer}>
+        <Link
+          to={`/${appId}${getLangQuery()}`}
+          style={{ color: '#666', textDecoration: 'none', display: 'block', marginBottom: 16 }}
+        >
+          ← {t('common.backToList')}
+        </Link>
         <p>© {new Date().getFullYear()} {appName}. {t('common.allRightsReserved')}</p>
       </footer>
     </div>

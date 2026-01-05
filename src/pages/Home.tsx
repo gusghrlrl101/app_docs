@@ -6,8 +6,8 @@ import { apps } from '../data';
 import styles from '../components/PrivacyPolicy.module.css';
 
 export function Home() {
-  const { t, i18n } = useTranslation();
-  useLangParam();
+  const { t } = useTranslation();
+  const { getLangQuery } = useLangParam();
 
   return (
     <div className={styles.container}>
@@ -23,7 +23,7 @@ export function Home() {
           {apps.map((app) => (
             <Link
               key={app.path}
-              to={`/${app.path}?lang=${i18n.language}`}
+              to={`/${app.path}${getLangQuery()}`}
               style={{
                 padding: '16px 24px',
                 background: '#f5f5f5',

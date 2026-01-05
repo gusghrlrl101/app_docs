@@ -9,17 +9,21 @@ export function useLangParam() {
   const [searchParams, setSearchParams] = useSearchParams();
   const { i18n } = useTranslation();
 
+  const langParam = searchParams.get('lang');
+
   useEffect(() => {
-    const lang = searchParams.get('lang');
-    if (lang && validCodes.includes(lang) && lang !== i18n.language) {
-      i18n.changeLanguage(lang);
+    if (langParam && validCodes.includes(langParam) && langParam !== i18n.language) {
+      i18n.changeLanguage(langParam);
     }
-  }, [searchParams, i18n]);
+  }, [langParam, i18n]);
 
   const changeLanguage = (code: string) => {
     i18n.changeLanguage(code);
     setSearchParams({ lang: code });
   };
 
-  return { changeLanguage };
+  // lang 파라미터가 있을 때만 쿼리스트링 반환
+  const getLangQuery = () => (langParam ? `?lang=${langParam}` : '');
+
+  return { changeLanguage, getLangQuery };
 }
