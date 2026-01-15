@@ -10,13 +10,13 @@ export interface AppConfig {
 // 새 앱 추가 시 여기에 추가하면 됩니다
 export const apps: AppConfig[] = [
   {
-    path: 'after-taste',
-    privacyUpdated: '2025-12-27',
-    termsUpdated: '2025-12-27',
-  },
-  {
     path: 'pocket-ai',
     privacyUpdated: '2026-01-06',
     termsUpdated: '2026-01-06',
+  },
+  {
+    path: 'after-taste',
+    privacyUpdated: '2025-12-27',
+    termsUpdated: '2025-12-27',
   },
 ];

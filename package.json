@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run check:i18n && tsc -b && vite build",
+    "build": "npm run check:i18n && tsc -b && vite build && npm run prerender",
+    "build:only": "vite build",
+    "prerender": "npx tsx scripts/prerender.ts",
     "lint": "eslint .",
     "preview": "vite preview",
     "check:i18n": "npx tsx scripts/check-translations.ts"
@@ -28,6 +30,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "puppeteer": "^24.35.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4"
