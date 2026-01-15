@@ -7,7 +7,9 @@
     "lastUpdated": "Dernière mise à jour",
     "contact": "Contact",
     "email": "E-mail",
-    "allRightsReserved": "Tous droits réservés."
+    "allRightsReserved": "Tous droits réservés.",
+    "developer": "Développeur",
+    "developerName": "Hyunho Lim"
   },
   "apps": {
     "after-taste": {

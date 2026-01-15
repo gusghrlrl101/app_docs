@@ -7,7 +7,9 @@
     "lastUpdated": "最后更新",
     "contact": "联系方式",
     "email": "邮箱",
-    "allRightsReserved": "版权所有。"
+    "allRightsReserved": "版权所有。",
+    "developer": "开发者",
+    "developerName": "Hyunho Lim"
   },
   "apps": {
     "after-taste": {

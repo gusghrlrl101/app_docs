@@ -32,6 +32,7 @@ export function AppPage() {
         </div>
         <h1>{appName}</h1>
         <p className={styles.description}>{description}</p>
+        <p className={styles.developer}>{t('common.developer')}: {t('common.developerName')}</p>
       </header>
 
       <main>

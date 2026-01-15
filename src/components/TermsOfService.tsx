@@ -31,6 +31,7 @@ export function TermsOfService({ appId, contactEmail, lastUpdated }: Props) {
         </div>
         <h1>{appName}</h1>
         <p className={styles.description}>{description}</p>
+        <p className={styles.developer}>{t('common.developer')}: {t('common.developerName')}</p>
         <h2>{t('common.termsOfService')}</h2>
         <p className={styles.updated}>{t('common.lastUpdated')}: {lastUpdated}</p>
       </header>

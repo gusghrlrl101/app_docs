@@ -7,7 +7,9 @@
     "lastUpdated": "최종 수정일",
     "contact": "문의처",
     "email": "이메일",
-    "allRightsReserved": "All rights reserved."
+    "allRightsReserved": "All rights reserved.",
+    "developer": "개발자",
+    "developerName": "임현호"
   },
   "apps": {
     "after-taste": {

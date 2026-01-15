@@ -7,7 +7,9 @@
     "lastUpdated": "Последнее обновление",
     "contact": "Контакты",
     "email": "Эл. почта",
-    "allRightsReserved": "Все права защищены."
+    "allRightsReserved": "Все права защищены.",
+    "developer": "Разработчик",
+    "developerName": "Hyunho Lim"
   },
   "apps": {
     "after-taste": {
